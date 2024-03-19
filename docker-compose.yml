@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  ddddocrdemo:
+    image: luxiang0412/ddddocrdemo:latest
+    container_name: ddddocrdemo
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - TZ=Asia/Shanghai
